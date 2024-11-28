@@ -8,6 +8,7 @@ class Student{
     char sname[20];
     float eng,math,science;
     float total=0;
+    float per=0;
     float ctotal(float eng,float math,float science);
 
     public:
@@ -30,7 +31,9 @@ class Student{
         cout<<"English:"<<eng<<endl;
         cout<<"Math:"<<math<<endl;
         cout<<"science:"<<science<<endl;
-        cout<<"Total:"<<ctotal(eng,math,science);
+        cout<<"Total:"<<ctotal(eng,math,science)<<endl;
+        per=ctotal(eng,math,science)/3;
+        cout<<"Per:"<<per<<endl;
     }
 };
 float Student::ctotal(float eng,float math,float science){
