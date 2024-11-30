@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+                                 
 class Book
 {
 private:
@@ -31,7 +31,7 @@ public:
 
 float Book::totalcost(int n, float price)
 {
-    return price * n;
+    return price * n; 
 }
 
 int main()
