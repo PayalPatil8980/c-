@@ -5,7 +5,7 @@ class Report
 private:
     int adno;
     char name[20];
-    float sub[5];
+    float sub[5];  
     float avarge = 0;
     float getavg(float average);
 
